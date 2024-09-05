@@ -12,21 +12,21 @@ body {
     135deg,
     hsla(43, 72%, 13%, 1.8) 0%,
     #FADA57 60%,
-    #ffee88 100%
+    #ffe755 100%
   );
 
   background: -moz-linear-gradient(
     135deg,
     hsla(43, 72%, 13%, 1.8) 0%,
     #FADA57 67%,
-    #ffee88 100%
+    #ffe236 100%
   );
 
   background: -webkit-linear-gradient(
     135deg,
     hsla(43, 72%, 13%, 1.8) 10%,
-    #FADA57 67%,
-    #ffee88 100%
+    #FADA57 70%,
+    #ffe755 100%
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#382B09", endColorstr="#FADA57", GradientType=1 );
