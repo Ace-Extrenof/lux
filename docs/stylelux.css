@@ -10,13 +10,34 @@ body {
     background: hsla(43, 72%, 13%, 1);
 
     background: linear-gradient(135deg,
-            hsla(43, 72%, 13%, 1.8) 0%,
-            #FADA57 60%,
+            hsla(43, 72%, 13%, 1.8) 10%,
+            #FADA57 70%,
             #ffe755 100%);
 
     background: -moz-linear-gradient(135deg,
-            hsla(43, 72%, 13%, 1.8) 0%,
-            #FADA57 67%,
+            hsla(43, 72%, 13%, 1.8) 10%,
+            #FADA57 70%,
+            #ffe236 100%);
+
+    background: -webkit-linear-gradient(135deg,
+            hsla(43, 72%, 13%, 1.8) 10%,
+            #FADA57 70%,
+            #ffe755 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#382B09", endColorstr="#FADA57", GradientType=1);
+}
+
+.body {
+    background: hsla(43, 72%, 13%, 1);
+
+    background: linear-gradient(135deg,
+            hsla(43, 72%, 13%, 1.8) 10%,
+            #FADA57 70%,
+            #ffe755 100%);
+
+    background: -moz-linear-gradient(135deg,
+            hsla(43, 72%, 13%, 1.8) 10%,
+            #FADA57 70%,
             #ffe236 100%);
 
     background: -webkit-linear-gradient(135deg,
@@ -145,4 +166,92 @@ button:hover {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+}
+
+.service-area1 {
+    padding-top: 50px;
+}
+
+.service-title1 {
+    text-align: center;
+    font-size: 60px;
+    display: block;
+}
+
+.service-block1 {
+    width: 370px;
+    background-color: #fff;
+}
+
+.service-text1 {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.service-img1 {
+    display: block;
+}
+
+.service-text-content {
+    display: block;
+}
+
+.service-text-content h2 {
+    font-size: 40px;
+    display: block;
+}
+
+.service-text-content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.main-text-container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-text-right {
+    padding-top: 40px;
+    display: block;
+    padding-right: 20px;
+}
+
+.main-text-right h5 {
+    width: 800px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.main-text-right p {
+    display: inline-block;
+    color: rgb(253, 3, 169);
+    padding-left: 130px;
+    padding-top: 30px;
+    font-size: 27px;
+}
+
+.main-text-left {
+    display: block;
+    width: 800px;
+    padding-top: 50px;
+    padding-left: 150px;
+    color: #fff;
+}
+
+.main-text-left h4 {
+    font-size: 90px;
+}
+
+.main-text-left p {
+    padding-left: 30px;
 }
